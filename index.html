@@ -11,49 +11,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--title representa o titulo e oque vai representar minha pagina-->
-    <title>Home</title>
+    <title>Home</title> 
+    <!--isso aqui e o link do css--> 
+    <link rel="stylesheet" href="style.css">
+    <!--css-->  
 </head>
 <!--dentro deste corpo body vai entrar tudo oque for colocar dentro da minha pagina -->
 <body>
     <!--cabeçalho do site-->
     <header>
+        <!--Navbar-->
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
+                <li class="nav-button">
+                    <a  href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="nav-button">
                     <a href="contato.html" >Contato</a>
                 </li>
-                <li>
+                <li class="nav-button">
                     <a href="tabela.html" >Tabela</a>
                 </li>
                     
             </ul>
   
         </nav>
+        <!--Navbar-->
 
     </header>
     <!-- /cabeçalho do site-->    
 
     <!--corpo do principal site-->
     <main>
-        <section>
+        <section class="container">
             <div>
-                <h1>Herbert Ferreira</h1>
-                <p>
+                <h1 id="titulo"> Herbert Ferreira</h1>
+                <p class="texto mb-5">
                     sou flamenguista e campeão 
                 </p>
-                <p>
+                <p class="texto mb-5">
                     gosto de trabalhar e socializar com as pessoas
                 </p>
-                <p>
+                <p class="texto mb-5">
                     estou ancioso para a copa do mundo e o mundial de clubes
                 </p>
             </div>
             <div>
                 <a>
-                    <img  width="400" src="https://i.imgur.com/GoOW8yn.jpeg" alt="mengão">
+                    <img  class="photo" src="https://i.imgur.com/GoOW8yn.jpeg" alt="mengão">
                 </a>
             </div>
             <div>
@@ -62,7 +67,7 @@
                 </p>
             </div>
 
-        </section>
+        </section >
     </main>
     <!--corpo principal do site-->
     <!-- rodapé do site-->
@@ -70,17 +75,17 @@
     <footer>
         <div>
         <a target= "_blank" href="https://www.linkedin.com/in/ferreira-herbert-63a16b195">
-            <img  width="100" src="assets/images/baixados.jpg" alt="linkedin">
+            <img  class="social"  src="assets/images/baixados.jpg" alt="linkedin">
           </a>
           <a target= "_blank" href="https://github.com/htfsa">
-            <img  width="100" src="assets/images/git.jpg" alt="github">
+            <img class="social" src="assets/images/git.jpg" alt="github">
           </a>
           
         
         </div>
         <p>
 
-        </p> Herbert Ferreira - Desenvolvedor java scrippt fulln stack - todos os direitos reservados
+        </p> Herbert Ferreira - Desenvolvedor javascript full stack - todos os direitos reservados
     </footer>
     <!-- /rodapé do site-->
 

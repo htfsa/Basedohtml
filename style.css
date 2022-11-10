@@ -1,0 +1,76 @@
+    /* css 
+    * = Universal
+    # = associar ou um id HTML
+    .classe é um selutor muito utilizado
+    */
+    *{
+        margin: 0px;
+        padding: 3px;
+    }
+    #titulo{
+        background-color: rgb(223, 216, 202);
+        color: rgb(15, 10, 20);
+        border: 1px solid rgb(9, 7, 7);
+        border-style: solid;
+        border-color: brown;
+        padding: 10px;
+        margin:10px
+    }
+    /*tamanho do texto aqui altera */
+    .texto{
+        font-size:medium ;
+
+    }
+
+
+    .texto:hover{
+        background-color: #333;
+    }
+    .photo{
+        width: 500px;
+
+    }
+
+    .social {
+        width: 100px;
+    }
+    /*distancia dos textos */
+    .mb-5{
+        margin-bottom: 5px;
+    }
+
+   
+    li {
+    display: inline;
+    }
+
+    a {
+    text-decoration: none;
+    }
+/*base do container*/
+    .container {
+        display: flex;
+    }
+    @media(max-width:500px){
+        .container {
+            flex-direction: column;
+        }
+    }
+/*objeto do container*/
+    .container > div {
+        width: 300px;
+    }
+    .nav-button{
+        margin: 10px;
+        border: 1px solid red;
+        padding: 20px;
+    }
+    .nav-button:hover{
+        background-color:red;
+        
+    }
+
+    hr{
+        display:none;
+    }
+    /*css */
